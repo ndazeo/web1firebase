@@ -29,8 +29,8 @@
 
   <!-- Main component for a primary marketing message or call to action -->
   <div class="jumbotron">
-      <h1>UID</h1>
-      <p>{{this.uid}}</p>
+    <h1>UID</h1>
+    <p>{{this.uid}}</p>
     <h1>Token de base de datos</h1>
     <p>{{this.idToken | async}}</p>
     <p *ngIf="!authService.isLoggedIn()">
